@@ -237,10 +237,6 @@
   column-gap: 25px;
 }
 
-.about_column {
-
-}
-
 .about_logo {
   height: 240px;
   width: 240px;
@@ -320,10 +316,6 @@
   justify-self: center;
 
   border-bottom: 1px;
-}
-
-.footer_menu_link {
-
 }
 
 .footer_menu_link_active {
