@@ -4,7 +4,6 @@
   grid-template-columns: 1fr min-content 1fr;
   padding: 89px 50px 96px 50px;
   align-items: center;
-  height: 293px;
 }
 
 .header_menu {
@@ -55,7 +54,7 @@
 
 .cover {
   position: relative;
-  height: 757px;
+  min-height: 757px;
   padding: 165px 50px 50px 50px;
 
   background-image: url(../images/lotus-flower.png);
@@ -77,12 +76,10 @@
 
 .cover_title {
   width: 1000px;
-  height: 385px;
   font-weight: 700;
   font-size: 100px;
   line-height: 114.99999999999999%;
   z-index: 2;
-  margin-bottom: 106px;
   color: #ffffff;
 }
 
@@ -109,11 +106,9 @@
 
 .text_right {
   text-align: right;
-  margin-bottom: 106px;
 }
 
 .description {
-  height: 51px;
   display: flex;
   justify-content: space-between;
 
@@ -139,20 +134,19 @@
   text-transform: uppercase;
   color: #ffffff;
 
-  padding: 12px 32px;
+  padding: 12px 32px 11px 31px;
   border: 1px solid #ffffff;
   background-color: transparent;
 }
 
 .lots {
   width: 1052px;
-  height: 723px;
   margin: 180px 24px 120px 24px;
 }
 
 .lots_heading {
-  height: 47px;
-  margin: 0px 891px 27px 40px;
+  padding-left: 40px;
+  margin-bottom: 35px;
 
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -163,14 +157,11 @@
 
 .lots_card_list {
   list-style-type: none;
-
-  margin-top: 27px;
-  margin-bottom: 30px;
-
   display: flex;
   justify-content: space-between;
   gap: 25px;
   flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 
 .lots_card_list_item {
@@ -181,13 +172,13 @@
 
 .card_link {
   height: 100%;
+  text-decoration: none;
 }
 
 .card {
   padding: 48px 40px;
   position: relative;
   height: 100%;
-  text-decoration: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -195,7 +186,7 @@
 }
 
 .card_title {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 22px;
   line-height: 120%;
@@ -208,7 +199,7 @@
 }
 
 .card_text {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
@@ -230,10 +221,8 @@
 }
 
 .lots_look_more_link {
-  height: 23px;
-  margin: 30px 820px 0px 40px;
-
-  font-family: Raleway;
+  padding-left: 40px;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 100%;
@@ -241,8 +230,7 @@
 
 .about {
   width: 1052px;
-  height: 595px;
-  margin: 120px 24px 0px 24px;
+  margin: 120px 24px 180px 24px;
 
   display: grid;
   grid-template-columns: 334px auto;
@@ -250,7 +238,7 @@
 }
 
 .about_column {
-  height: 595px;
+
 }
 
 .about_logo {
@@ -271,18 +259,18 @@
 }
 
 .about_title {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 100%;
   text-transform: uppercase;
 
-  padding-top: 136px;
-  margin-bottom: 100px;
+  padding-top: 139px;
+  padding-bottom: 105px;
 }
 
 .about_text {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
@@ -303,10 +291,9 @@
   margin-top: 180px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 0px 50px 82px 50px;
+  padding: 2px 50px 82px 50px;
   justify-content: space-between;
   width: 1100px;
-  height: 180px;
 }
 
 .footer_address {
@@ -317,7 +304,6 @@
 .footer_menu {
   justify-self: center;
   display: flex;
-  row-gap: 30px;
 }
 
 .footer_menu_list {
@@ -325,17 +311,19 @@
 }
 
 .footer_menu_list_item {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
   text-align: center;
 
   justify-self: center;
+
+  border-bottom: 1px;
 }
 
 .footer_menu_link {
-  border-bottom: 1px;
+
 }
 
 .footer_menu_link_active {
@@ -351,9 +339,9 @@
 
 .social_link {
   display: block;
+}
+
+.social_link_img {
   width: 48px;
   height: 48px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
